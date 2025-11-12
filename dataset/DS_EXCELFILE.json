@@ -1,0 +1,20 @@
+{
+	"name": "DS_EXCELFILE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_EXCELFILE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DATA.xlsx",
+				"fileSystem": "input"
+			}
+		},
+		"schema": []
+	}
+}
