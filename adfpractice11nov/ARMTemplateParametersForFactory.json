@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfpractice11nov"
+		},
+		"LS_EXCELFILE_accountKey": {
+			"value": ""
+		},
+		"LS_PRQ_accountKey": {
+			"value": ""
+		},
+		"LS_EXCELFILE_properties_typeProperties_url": {
+			"value": "https://adlsbulkload11nov.dfs.core.windows.net/"
+		},
+		"LS_PRQ_properties_typeProperties_url": {
+			"value": "https://adlssinknov11.dfs.core.windows.net/"
+		}
+	}
+}
